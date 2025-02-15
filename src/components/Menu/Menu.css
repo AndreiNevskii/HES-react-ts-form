@@ -1,0 +1,39 @@
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}  
+    
+.menu a  {
+    background: transparent;
+    margin-right: 4rem;
+    color: #f4f5f8;
+    
+    font-weight: 500;
+    letter-spacing: .05em;
+    text-decoration: none;
+}
+
+.menu a:last-of-type {
+    margin-right: 0 ;
+}
+
+    
+.menu a:hover {
+    text-decoration: underline;
+}
+
+a.active {
+    color: rgb(255, 3, 3);  
+    font-weight: 500;
+}
+  
+
+
+
+
+
+  
+ 
